@@ -1,0 +1,27 @@
+.resultBox{
+    width: 30vw;
+    background-color: white;
+    color: #919295;
+    margin: auto;
+    margin-bottom: 3vh;
+    border-radius: 10px;
+    padding-bottom: 3vh;
+}
+
+
+
+
+
+/* ____________mobile__________________________ */
+@media(max-width: 800px){
+    .resultBox{
+        width: 70vw;
+        background-color: white;
+        color: #919295;
+        margin: auto;
+        margin-bottom: 3vh;
+        border-radius: 10px;
+    }
+
+    
+}

@@ -1,0 +1,121 @@
+.appFieldset {
+    border: 0;
+    margin: 0;
+}
+
+.divOpcao {
+    display: inline-block;
+    width: 5vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+.botaoUm {
+    height: 5vw;
+    width: 10vw;
+    border-radius: 7px;
+    float: right;
+    font-size: 3vmin;
+    border: none;
+    background: rgb(144, 90, 173);
+    color: white;
+
+
+}
+
+
+.botaoDois {
+    height: 5vw;
+    width: 10vw;
+    border-radius: 7px;
+    float: left;
+    font-size: 3vmin;
+    border: none;
+    background: rgb(109, 173, 215);
+    color: white;
+}
+
+.legend {
+    font-size: 4.5vmin;
+    color: white;
+    margin: 0;
+}
+
+.form {
+    margin: 0;
+}
+
+.invisibleInput{
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 0.1px;
+    width: 0.1px;
+    float: left;
+}
+
+
+
+
+/* _____________________mobile________________________________ */
+
+
+
+
+@media(max-width: 800px) {
+    .appFieldset {
+        border: 0;
+    }
+
+    .divOpcao {
+        display: inline-block;
+        width: 5vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        text-align: center;
+    }
+
+    .botaoUm {
+        height: 15vw;
+        width: 30vw;
+        border-radius: 7px;
+        float: right;
+        font-size: 5vmin;
+        border: none;
+
+        background: rgb(144, 90, 173);
+        color: white;
+
+    }
+
+    .botaoDois {
+        height: 15vw;
+        width: 30vw;
+        border-radius: 7px;
+        float: left;
+        font-size: 5vmin;
+        border: none;
+        background: rgb(109, 173, 215);
+        color: white;
+    }
+
+    .legend {
+        font-size: 6vmin;
+        color: white;
+    }
+}
+
+
+
+
+/* ______________________pc_________________________________ */
+
+
+@media(min-width: 800px) {
+    button:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+}

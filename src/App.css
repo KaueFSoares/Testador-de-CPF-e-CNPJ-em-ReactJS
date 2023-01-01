@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background: rgb(109,173,215);
+  background: linear-gradient(90deg, rgba(109,173,215) 0%, rgba(144,90,173));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.5vmin;
+  color: white;
+}
+
+.App-footer {
+  font-style: italic;
+}
+
+
+@media(max-width: 800px){
+    h1{
+      font-size: 15vmin;
+    }
+
+    footer{
+      font-size: 5em;
+    }
+
+    p{
+      font-size: 2em;
+    }
+}
+
+footer{
+  font-size: .5em;
+}

@@ -1,0 +1,20 @@
+.appSection {
+  background: #919295;
+  border-radius: 10px;
+  width: 60vw;
+  margin: auto;
+  color: black;
+  text-align: center;
+}
+
+@media(max-width: 800px) {
+  .appSection {
+    background: #919295;
+    border-radius: 10px;
+    width: 80vw;
+    margin: auto;
+    padding: 5vmin;
+    color: black;
+    text-align: center;
+  }
+}
