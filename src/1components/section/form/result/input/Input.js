@@ -184,7 +184,7 @@ function Input(props) {
                 {value && (
 
                     <p
-                        className={styles.textResult}
+                        className={`${styles[type]}`}
                     >
 
                         {textResult}
