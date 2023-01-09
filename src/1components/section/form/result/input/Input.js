@@ -10,7 +10,7 @@ function Input(props) {
 
     function testCPF(e) {
         e.preventDefault()
-        
+
 
         let numStr = value.replace(/[^0-9]/g, '');
 
