@@ -6,7 +6,7 @@ function App() {
     <div className="App">
 
       <header className="App-header">
-        <h1>Testador de CPF ou CNPJ</h1>
+        <h1>Testador de CPF ou CNPJ.</h1>
       </header>
 
       <Section />

@@ -27,9 +27,16 @@ input::placeholder {
     margin-top: 3vh;
 }
 
-.textResult{
+.valid{
     margin: 0;
-    font-size: 0.9em
+    font-size: 0.9em;
+    color: lawngreen;
+}
+
+.invalid{
+    margin: 0;
+    font-size: 0.9em;
+    color: red;
 }
 
 @media(max-width: 800px) {

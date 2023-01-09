@@ -6,6 +6,7 @@ function Input(props) {
 
     const [textResult, setTextResult] = useState()
     const [value, setValue] = useState()
+    const [type, setType] = useState("")
 
     function testCPF(e) {
         e.preventDefault()
@@ -58,13 +59,16 @@ function Input(props) {
 
             if (verify2 === numArray[10]) {
                 setTextResult("Cpf válido!")
+                setType("valid")
             } else {
                 setTextResult("Cpf inválido!")
+                setType("invalid")
             }
 
 
         } else {
             setTextResult("Cpf inválido!")
+            setType("invalid")
         }
 
     }
@@ -138,11 +142,14 @@ function Input(props) {
 
             if (verify2 === numArray[0]) {
                 setTextResult("Cnpj válido!")
+                setType("valid")
             } else {
                 setTextResult("Cnpj inválido!")
+                setType("invalid")
             }
         } else {
             setTextResult("Cnpj inválido!")
+            setType("invalid")
         }
     }
 
@@ -211,7 +218,7 @@ function Input(props) {
                 {value && (
 
                     <p
-                        className={styles.textResult}
+                        className={`${styles[type]}`}
                     >
 
                         {textResult}
